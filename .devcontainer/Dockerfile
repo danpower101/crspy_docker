@@ -12,7 +12,7 @@ RUN pip install --upgrade pip setuptools wheel # buildkit
 RUN pip install Cython h5py 
 RUN apt-get install libnetcdf-c++4-dev -y 
 RUN pip3 install jupyter
-RUN pip install crspy==1.2.1
+RUN pip install crspy==1.2.2
 
 RUN adduser -u 5678 --disabled-password --gecos "" crspyuser && chown -R crspyuser /home/crspyuser
 WORKDIR /home/crspyuser/wd

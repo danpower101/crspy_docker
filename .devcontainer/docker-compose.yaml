@@ -9,4 +9,3 @@ services:
     tty: true # attaches a terminal to the container
     volumes:
       - /path/to/your/wd:/home/crspyuser/wd:rw # Change the path before the : to your computer working directory
-      
